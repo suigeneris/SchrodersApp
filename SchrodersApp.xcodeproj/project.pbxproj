@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A4275B625CB366500620CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275B525CB366500620CE8 /* AppDelegate.swift */; };
+		2A4275B825CB366500620CE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275B725CB366500620CE8 /* SceneDelegate.swift */; };
+		2A4275BA25CB366500620CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275B925CB366500620CE8 /* ViewController.swift */; };
+		2A4275BD25CB366500620CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4275BB25CB366500620CE8 /* Main.storyboard */; };
+		2A4275BF25CB366600620CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4275BE25CB366600620CE8 /* Assets.xcassets */; };
+		2A4275C225CB366600620CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4275C025CB366600620CE8 /* LaunchScreen.storyboard */; };
+		2A4275CD25CB366600620CE8 /* SchrodersAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275CC25CB366600620CE8 /* SchrodersAppTests.swift */; };
+		2A4275D825CB366600620CE8 /* SchrodersAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275D725CB366600620CE8 /* SchrodersAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A4275C925CB366600620CE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A4275AA25CB366500620CE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A4275B125CB366500620CE8;
+			remoteInfo = SchrodersApp;
+		};
+		2A4275D425CB366600620CE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A4275AA25CB366500620CE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A4275B125CB366500620CE8;
+			remoteInfo = SchrodersApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A4275B225CB366500620CE8 /* SchrodersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchrodersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4275B525CB366500620CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A4275B725CB366500620CE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A4275B925CB366500620CE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A4275BC25CB366500620CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A4275BE25CB366600620CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A4275C125CB366600620CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A4275C325CB366600620CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A4275C825CB366600620CE8 /* SchrodersAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchrodersAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4275CC25CB366600620CE8 /* SchrodersAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodersAppTests.swift; sourceTree = "<group>"; };
+		2A4275CE25CB366600620CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A4275D325CB366600620CE8 /* SchrodersAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchrodersAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4275D725CB366600620CE8 /* SchrodersAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodersAppUITests.swift; sourceTree = "<group>"; };
+		2A4275D925CB366600620CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A4275AF25CB366500620CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4275C525CB366600620CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4275D025CB366600620CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A4275A925CB366500620CE8 = {
+			isa = PBXGroup;
+			children = (
+				2A4275B425CB366500620CE8 /* SchrodersApp */,
+				2A4275CB25CB366600620CE8 /* SchrodersAppTests */,
+				2A4275D625CB366600620CE8 /* SchrodersAppUITests */,
+				2A4275B325CB366500620CE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A4275B325CB366500620CE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A4275B225CB366500620CE8 /* SchrodersApp.app */,
+				2A4275C825CB366600620CE8 /* SchrodersAppTests.xctest */,
+				2A4275D325CB366600620CE8 /* SchrodersAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A4275B425CB366500620CE8 /* SchrodersApp */ = {
+			isa = PBXGroup;
+			children = (
+				2A4275B525CB366500620CE8 /* AppDelegate.swift */,
+				2A4275B725CB366500620CE8 /* SceneDelegate.swift */,
+				2A4275B925CB366500620CE8 /* ViewController.swift */,
+				2A4275BB25CB366500620CE8 /* Main.storyboard */,
+				2A4275BE25CB366600620CE8 /* Assets.xcassets */,
+				2A4275C025CB366600620CE8 /* LaunchScreen.storyboard */,
+				2A4275C325CB366600620CE8 /* Info.plist */,
+			);
+			path = SchrodersApp;
+			sourceTree = "<group>";
+		};
+		2A4275CB25CB366600620CE8 /* SchrodersAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A4275CC25CB366600620CE8 /* SchrodersAppTests.swift */,
+				2A4275CE25CB366600620CE8 /* Info.plist */,
+			);
+			path = SchrodersAppTests;
+			sourceTree = "<group>";
+		};
+		2A4275D625CB366600620CE8 /* SchrodersAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A4275D725CB366600620CE8 /* SchrodersAppUITests.swift */,
+				2A4275D925CB366600620CE8 /* Info.plist */,
+			);
+			path = SchrodersAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A4275B125CB366500620CE8 /* SchrodersApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4275DC25CB366600620CE8 /* Build configuration list for PBXNativeTarget "SchrodersApp" */;
+			buildPhases = (
+				2A4275AE25CB366500620CE8 /* Sources */,
+				2A4275AF25CB366500620CE8 /* Frameworks */,
+				2A4275B025CB366500620CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchrodersApp;
+			productName = SchrodersApp;
+			productReference = 2A4275B225CB366500620CE8 /* SchrodersApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A4275C725CB366600620CE8 /* SchrodersAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4275DF25CB366600620CE8 /* Build configuration list for PBXNativeTarget "SchrodersAppTests" */;
+			buildPhases = (
+				2A4275C425CB366600620CE8 /* Sources */,
+				2A4275C525CB366600620CE8 /* Frameworks */,
+				2A4275C625CB366600620CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A4275CA25CB366600620CE8 /* PBXTargetDependency */,
+			);
+			name = SchrodersAppTests;
+			productName = SchrodersAppTests;
+			productReference = 2A4275C825CB366600620CE8 /* SchrodersAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A4275D225CB366600620CE8 /* SchrodersAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4275E225CB366600620CE8 /* Build configuration list for PBXNativeTarget "SchrodersAppUITests" */;
+			buildPhases = (
+				2A4275CF25CB366600620CE8 /* Sources */,
+				2A4275D025CB366600620CE8 /* Frameworks */,
+				2A4275D125CB366600620CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A4275D525CB366600620CE8 /* PBXTargetDependency */,
+			);
+			name = SchrodersAppUITests;
+			productName = SchrodersAppUITests;
+			productReference = 2A4275D325CB366600620CE8 /* SchrodersAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A4275AA25CB366500620CE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2A4275B125CB366500620CE8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					2A4275C725CB366600620CE8 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2A4275B125CB366500620CE8;
+					};
+					2A4275D225CB366600620CE8 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2A4275B125CB366500620CE8;
+					};
+				};
+			};
+			buildConfigurationList = 2A4275AD25CB366500620CE8 /* Build configuration list for PBXProject "SchrodersApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A4275A925CB366500620CE8;
+			productRefGroup = 2A4275B325CB366500620CE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A4275B125CB366500620CE8 /* SchrodersApp */,
+				2A4275C725CB366600620CE8 /* SchrodersAppTests */,
+				2A4275D225CB366600620CE8 /* SchrodersAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A4275B025CB366500620CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4275C225CB366600620CE8 /* LaunchScreen.storyboard in Resources */,
+				2A4275BF25CB366600620CE8 /* Assets.xcassets in Resources */,
+				2A4275BD25CB366500620CE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4275C625CB366600620CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4275D125CB366600620CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A4275AE25CB366500620CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4275BA25CB366500620CE8 /* ViewController.swift in Sources */,
+				2A4275B625CB366500620CE8 /* AppDelegate.swift in Sources */,
+				2A4275B825CB366500620CE8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4275C425CB366600620CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4275CD25CB366600620CE8 /* SchrodersAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4275CF25CB366600620CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4275D825CB366600620CE8 /* SchrodersAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A4275CA25CB366600620CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A4275B125CB366500620CE8 /* SchrodersApp */;
+			targetProxy = 2A4275C925CB366600620CE8 /* PBXContainerItemProxy */;
+		};
+		2A4275D525CB366600620CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A4275B125CB366500620CE8 /* SchrodersApp */;
+			targetProxy = 2A4275D425CB366600620CE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A4275BB25CB366500620CE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A4275BC25CB366500620CE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A4275C025CB366600620CE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A4275C125CB366600620CE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A4275DA25CB366600620CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A4275DB25CB366600620CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A4275DD25CB366600620CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchrodersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.tudilah.SchrodersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A4275DE25CB366600620CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchrodersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.tudilah.SchrodersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A4275E025CB366600620CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchrodersAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.tudilah.SchrodersAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchrodersApp.app/SchrodersApp";
+			};
+			name = Debug;
+		};
+		2A4275E125CB366600620CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchrodersAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.tudilah.SchrodersAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchrodersApp.app/SchrodersApp";
+			};
+			name = Release;
+		};
+		2A4275E325CB366600620CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchrodersAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.tudilah.SchrodersAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SchrodersApp;
+			};
+			name = Debug;
+		};
+		2A4275E425CB366600620CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchrodersAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.tudilah.SchrodersAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SchrodersApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A4275AD25CB366500620CE8 /* Build configuration list for PBXProject "SchrodersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4275DA25CB366600620CE8 /* Debug */,
+				2A4275DB25CB366600620CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4275DC25CB366600620CE8 /* Build configuration list for PBXNativeTarget "SchrodersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4275DD25CB366600620CE8 /* Debug */,
+				2A4275DE25CB366600620CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4275DF25CB366600620CE8 /* Build configuration list for PBXNativeTarget "SchrodersAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4275E025CB366600620CE8 /* Debug */,
+				2A4275E125CB366600620CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4275E225CB366600620CE8 /* Build configuration list for PBXNativeTarget "SchrodersAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4275E325CB366600620CE8 /* Debug */,
+				2A4275E425CB366600620CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A4275AA25CB366500620CE8 /* Project object */;
+}

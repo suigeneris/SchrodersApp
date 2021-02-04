@@ -1,0 +1,17 @@
+//
+//  BaseConfiguration.xcconfig
+//  SchrodersApp
+//
+//  Created by Jonathan Aguele on 03/02/2021.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SLASH = /
+
+// MARK: URLS
+BASE_URI = https:${SLASH}/api.github.com/
+
+// MARK: API Endpoints
+REPOSITORIES_API = ${BASE_URI}repositories/44838949/

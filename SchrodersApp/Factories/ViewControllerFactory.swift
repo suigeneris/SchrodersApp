@@ -16,9 +16,9 @@ class ViewControllerFactory {
         self.dataManagerFactory = DataManagerFactory()
     }
 
-    func landingVC() -> LandingViewController {
-        let viewModel = LandingViewModel(dataManager: dataManagerFactory.commitDataManager())
-        let vc = LandingViewController(viewModel: viewModel)
+    func landingVC() -> CommitsViewController {
+        let viewModel = CommitsViewModel(dataManager: dataManagerFactory.commitDataManager())
+        let vc = CommitsViewController(viewModel: viewModel)
         return vc
     }
 }

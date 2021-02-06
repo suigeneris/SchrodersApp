@@ -1,0 +1,6 @@
+framework module Pods_SchrodersAppTests {
+  umbrella header "Pods-SchrodersAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

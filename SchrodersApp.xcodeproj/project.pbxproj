@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B7892E5A7782C2E573D8115 /* Pods_SchrodersApp_SchrodersAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65B424DEDBC4D4291B54954 /* Pods_SchrodersApp_SchrodersAppUITests.framework */; };
+		2A13000025CE88E70099221F /* UIViewController+Embedding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A13FFFF25CE88E70099221F /* UIViewController+Embedding.swift */; };
+		2A13FFF425CE82530099221F /* EmptyStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A13FFF325CE82530099221F /* EmptyStateViewController.swift */; };
+		2A13FFF925CE83B20099221F /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A13FFF825CE83B20099221F /* LoadingViewController.swift */; };
+		2A38C38F25CC01EA005ED400 /* CommitsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A38C38E25CC01EA005ED400 /* CommitsTableViewCell.swift */; };
 		2A4275B625CB366500620CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275B525CB366500620CE8 /* AppDelegate.swift */; };
 		2A4275B825CB366500620CE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275B725CB366500620CE8 /* SceneDelegate.swift */; };
 		2A4275BD25CB366500620CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4275BB25CB366500620CE8 /* Main.storyboard */; };
@@ -14,18 +19,20 @@
 		2A4275C225CB366600620CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4275C025CB366600620CE8 /* LaunchScreen.storyboard */; };
 		2A4275CD25CB366600620CE8 /* SchrodersAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275CC25CB366600620CE8 /* SchrodersAppTests.swift */; };
 		2A4275D825CB366600620CE8 /* SchrodersAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275D725CB366600620CE8 /* SchrodersAppUITests.swift */; };
-		2A4275EB25CB374700620CE8 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275EA25CB374700620CE8 /* LandingViewController.swift */; };
+		2A4275EB25CB374700620CE8 /* CommitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275EA25CB374700620CE8 /* CommitsViewController.swift */; };
 		2A4275F025CB37B600620CE8 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275EF25CB37B600620CE8 /* ViewControllerFactory.swift */; };
-		2A4275F525CB37CF00620CE8 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275F425CB37CF00620CE8 /* LandingView.swift */; };
+		2A4275F525CB37CF00620CE8 /* CommitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275F425CB37CF00620CE8 /* CommitsView.swift */; };
 		2A4275FB25CB37E800620CE8 /* UIIdentifying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275FA25CB37E800620CE8 /* UIIdentifying.swift */; };
-		2A42760025CB381900620CE8 /* LandingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A4275FF25CB381900620CE8 /* LandingView.xib */; };
-		2A42760825CB38FF00620CE8 /* LandingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42760725CB38FF00620CE8 /* LandingViewModel.swift */; };
+		2A42760025CB381900620CE8 /* CommitsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A4275FF25CB381900620CE8 /* CommitsView.xib */; };
+		2A42760825CB38FF00620CE8 /* CommitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42760725CB38FF00620CE8 /* CommitsViewModel.swift */; };
 		2A42760F25CB3BAB00620CE8 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42760E25CB3BAB00620CE8 /* Configuration.swift */; };
 		2A42761E25CB41F800620CE8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42761D25CB41F800620CE8 /* DataManager.swift */; };
 		2A42762725CB428800620CE8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42762625CB428800620CE8 /* NetworkService.swift */; };
 		2A42762D25CB4D6C00620CE8 /* GitCommitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42762C25CB4D6C00620CE8 /* GitCommitModel.swift */; };
 		2A42763225CB4FE200620CE8 /* CommitDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42763125CB4FE200620CE8 /* CommitDataManager.swift */; };
 		2A42763725CB502D00620CE8 /* DataManagerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42763625CB502D00620CE8 /* DataManagerFactory.swift */; };
+		B13841E24D5B72C7F82E40AD /* Pods_SchrodersAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B90C80CB6BAC6168049C77 /* Pods_SchrodersAppTests.framework */; };
+		B748425BE64BEEBA60BCAFB9 /* Pods_SchrodersApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685AB1C1048A876F1E67DD18 /* Pods_SchrodersApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0642081E827107975CC7EA1B /* Pods-SchrodersApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchrodersApp.debug.xcconfig"; path = "Target Support Files/Pods-SchrodersApp/Pods-SchrodersApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2A13FFF325CE82530099221F /* EmptyStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateViewController.swift; sourceTree = "<group>"; };
+		2A13FFF825CE83B20099221F /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		2A13FFFF25CE88E70099221F /* UIViewController+Embedding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Embedding.swift"; sourceTree = "<group>"; };
+		2A38C38E25CC01EA005ED400 /* CommitsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsTableViewCell.swift; sourceTree = "<group>"; };
 		2A4275B225CB366500620CE8 /* SchrodersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchrodersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4275B525CB366500620CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A4275B725CB366500620CE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,12 +71,12 @@
 		2A4275D325CB366600620CE8 /* SchrodersAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchrodersAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4275D725CB366600620CE8 /* SchrodersAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodersAppUITests.swift; sourceTree = "<group>"; };
 		2A4275D925CB366600620CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A4275EA25CB374700620CE8 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		2A4275EA25CB374700620CE8 /* CommitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsViewController.swift; sourceTree = "<group>"; };
 		2A4275EF25CB37B600620CE8 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
-		2A4275F425CB37CF00620CE8 /* LandingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		2A4275F425CB37CF00620CE8 /* CommitsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitsView.swift; sourceTree = "<group>"; };
 		2A4275FA25CB37E800620CE8 /* UIIdentifying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIIdentifying.swift; sourceTree = "<group>"; };
-		2A4275FF25CB381900620CE8 /* LandingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingView.xib; sourceTree = "<group>"; };
-		2A42760725CB38FF00620CE8 /* LandingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewModel.swift; sourceTree = "<group>"; };
+		2A4275FF25CB381900620CE8 /* CommitsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommitsView.xib; sourceTree = "<group>"; };
+		2A42760725CB38FF00620CE8 /* CommitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsViewModel.swift; sourceTree = "<group>"; };
 		2A42760D25CB3A9000620CE8 /* BaseConfiguration.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BaseConfiguration.xcconfig; sourceTree = "<group>"; };
 		2A42760E25CB3BAB00620CE8 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		2A42761D25CB41F800620CE8 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
@@ -72,6 +84,14 @@
 		2A42762C25CB4D6C00620CE8 /* GitCommitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitModel.swift; sourceTree = "<group>"; };
 		2A42763125CB4FE200620CE8 /* CommitDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitDataManager.swift; sourceTree = "<group>"; };
 		2A42763625CB502D00620CE8 /* DataManagerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerFactory.swift; sourceTree = "<group>"; };
+		685AB1C1048A876F1E67DD18 /* Pods_SchrodersApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchrodersApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		834FFB1EDE7B9F6AB8D3F1AC /* Pods-SchrodersAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchrodersAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SchrodersAppTests/Pods-SchrodersAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A65B424DEDBC4D4291B54954 /* Pods_SchrodersApp_SchrodersAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchrodersApp_SchrodersAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A734EEA513D6F06C87136EA5 /* Pods-SchrodersAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchrodersAppTests.release.xcconfig"; path = "Target Support Files/Pods-SchrodersAppTests/Pods-SchrodersAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7B90C80CB6BAC6168049C77 /* Pods_SchrodersAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchrodersAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C172F53EEAE7E1A3B348B56C /* Pods-SchrodersApp-SchrodersAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchrodersApp-SchrodersAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SchrodersApp-SchrodersAppUITests/Pods-SchrodersApp-SchrodersAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8EEDF4F524093389FA3023D /* Pods-SchrodersApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchrodersApp.release.xcconfig"; path = "Target Support Files/Pods-SchrodersApp/Pods-SchrodersApp.release.xcconfig"; sourceTree = "<group>"; };
+		FBA56BCF30D621B3FC15B506 /* Pods-SchrodersApp-SchrodersAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchrodersApp-SchrodersAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SchrodersApp-SchrodersAppUITests/Pods-SchrodersApp-SchrodersAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B748425BE64BEEBA60BCAFB9 /* Pods_SchrodersApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13841E24D5B72C7F82E40AD /* Pods_SchrodersAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,12 +115,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B7892E5A7782C2E573D8115 /* Pods_SchrodersApp_SchrodersAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A13FFFD25CE88C30099221F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A13FFFF25CE88E70099221F /* UIViewController+Embedding.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2A13FFFE25CE88D00099221F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2A4275B525CB366500620CE8 /* AppDelegate.swift */,
+				2A4275B725CB366500620CE8 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2A38C38C25CC01B7005ED400 /* CommitsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2A38C38D25CC01C7005ED400 /* Cells */,
+				2A4275EA25CB374700620CE8 /* CommitsViewController.swift */,
+				2A42760725CB38FF00620CE8 /* CommitsViewModel.swift */,
+				2A4275F425CB37CF00620CE8 /* CommitsView.swift */,
+				2A4275FF25CB381900620CE8 /* CommitsView.xib */,
+			);
+			path = CommitsScreen;
+			sourceTree = "<group>";
+		};
+		2A38C38D25CC01C7005ED400 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2A38C38E25CC01EA005ED400 /* CommitsTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		2A4275A925CB366500620CE8 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +166,8 @@
 				2A4275CB25CB366600620CE8 /* SchrodersAppTests */,
 				2A4275D625CB366600620CE8 /* SchrodersAppUITests */,
 				2A4275B325CB366500620CE8 /* Products */,
+				69E0EA918FA7872378499FC1 /* Pods */,
+				66A7CE7F3EB8E9F8EF25F4BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,15 +184,15 @@
 		2A4275B425CB366500620CE8 /* SchrodersApp */ = {
 			isa = PBXGroup;
 			children = (
+				2A13FFFE25CE88D00099221F /* AppDelegate */,
+				2A42760C25CB3A0800620CE8 /* Configurations */,
+				2A42761C25CB419700620CE8 /* DataManager */,
+				2A13FFFD25CE88C30099221F /* Extensions */,
+				2A4275E825CB371F00620CE8 /* Factories */,
 				2A42762B25CB4D0A00620CE8 /* Models */,
 				2A42762525CB427B00620CE8 /* NetworkService */,
-				2A42761C25CB419700620CE8 /* DataManager */,
-				2A42760C25CB3A0800620CE8 /* Configurations */,
 				2A4275F925CB37E800620CE8 /* Utils */,
-				2A4275E825CB371F00620CE8 /* Factories */,
 				2A4275E925CB372900620CE8 /* UI */,
-				2A4275B525CB366500620CE8 /* AppDelegate.swift */,
-				2A4275B725CB366500620CE8 /* SceneDelegate.swift */,
 				2A4275BB25CB366500620CE8 /* Main.storyboard */,
 				2A4275BE25CB366600620CE8 /* Assets.xcassets */,
 				2A4275C025CB366600620CE8 /* LaunchScreen.storyboard */,
@@ -169,10 +231,7 @@
 		2A4275E925CB372900620CE8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				2A4275EA25CB374700620CE8 /* LandingViewController.swift */,
-				2A42760725CB38FF00620CE8 /* LandingViewModel.swift */,
-				2A4275F425CB37CF00620CE8 /* LandingView.swift */,
-				2A4275FF25CB381900620CE8 /* LandingView.xib */,
+				2A38C38C25CC01B7005ED400 /* CommitsScreen */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -181,6 +240,8 @@
 			isa = PBXGroup;
 			children = (
 				2A4275FA25CB37E800620CE8 /* UIIdentifying.swift */,
+				2A13FFF325CE82530099221F /* EmptyStateViewController.swift */,
+				2A13FFF825CE83B20099221F /* LoadingViewController.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -219,6 +280,29 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		66A7CE7F3EB8E9F8EF25F4BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				685AB1C1048A876F1E67DD18 /* Pods_SchrodersApp.framework */,
+				A65B424DEDBC4D4291B54954 /* Pods_SchrodersApp_SchrodersAppUITests.framework */,
+				A7B90C80CB6BAC6168049C77 /* Pods_SchrodersAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69E0EA918FA7872378499FC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0642081E827107975CC7EA1B /* Pods-SchrodersApp.debug.xcconfig */,
+				E8EEDF4F524093389FA3023D /* Pods-SchrodersApp.release.xcconfig */,
+				C172F53EEAE7E1A3B348B56C /* Pods-SchrodersApp-SchrodersAppUITests.debug.xcconfig */,
+				FBA56BCF30D621B3FC15B506 /* Pods-SchrodersApp-SchrodersAppUITests.release.xcconfig */,
+				834FFB1EDE7B9F6AB8D3F1AC /* Pods-SchrodersAppTests.debug.xcconfig */,
+				A734EEA513D6F06C87136EA5 /* Pods-SchrodersAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -226,9 +310,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A4275DC25CB366600620CE8 /* Build configuration list for PBXNativeTarget "SchrodersApp" */;
 			buildPhases = (
+				E12EE9704331F1B1F8A31695 /* [CP] Check Pods Manifest.lock */,
 				2A4275AE25CB366500620CE8 /* Sources */,
 				2A4275AF25CB366500620CE8 /* Frameworks */,
 				2A4275B025CB366500620CE8 /* Resources */,
+				558DC6D15AC4F9786A2CAF09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,6 +329,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A4275DF25CB366600620CE8 /* Build configuration list for PBXNativeTarget "SchrodersAppTests" */;
 			buildPhases = (
+				14F4FF559EE5CABF0CB5F6C7 /* [CP] Check Pods Manifest.lock */,
 				2A4275C425CB366600620CE8 /* Sources */,
 				2A4275C525CB366600620CE8 /* Frameworks */,
 				2A4275C625CB366600620CE8 /* Resources */,
@@ -261,9 +348,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A4275E225CB366600620CE8 /* Build configuration list for PBXNativeTarget "SchrodersAppUITests" */;
 			buildPhases = (
+				3B71B5BDD45A4413405F128B /* [CP] Check Pods Manifest.lock */,
 				2A4275CF25CB366600620CE8 /* Sources */,
 				2A4275D025CB366600620CE8 /* Frameworks */,
 				2A4275D125CB366600620CE8 /* Resources */,
+				8C67676D8C8F639367B5869D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,7 +411,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A42760025CB381900620CE8 /* LandingView.xib in Resources */,
+				2A42760025CB381900620CE8 /* CommitsView.xib in Resources */,
 				2A4275C225CB366600620CE8 /* LaunchScreen.storyboard in Resources */,
 				2A4275BF25CB366600620CE8 /* Assets.xcassets in Resources */,
 				2A4275BD25CB366500620CE8 /* Main.storyboard in Resources */,
@@ -345,20 +434,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14F4FF559EE5CABF0CB5F6C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchrodersAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B71B5BDD45A4413405F128B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchrodersApp-SchrodersAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		558DC6D15AC4F9786A2CAF09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchrodersApp/Pods-SchrodersApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchrodersApp/Pods-SchrodersApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SchrodersApp/Pods-SchrodersApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C67676D8C8F639367B5869D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchrodersApp-SchrodersAppUITests/Pods-SchrodersApp-SchrodersAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchrodersApp-SchrodersAppUITests/Pods-SchrodersApp-SchrodersAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SchrodersApp-SchrodersAppUITests/Pods-SchrodersApp-SchrodersAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E12EE9704331F1B1F8A31695 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchrodersApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A4275AE25CB366500620CE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2A42762725CB428800620CE8 /* NetworkService.swift in Sources */,
-				2A4275F525CB37CF00620CE8 /* LandingView.swift in Sources */,
+				2A13FFF425CE82530099221F /* EmptyStateViewController.swift in Sources */,
+				2A4275F525CB37CF00620CE8 /* CommitsView.swift in Sources */,
+				2A13FFF925CE83B20099221F /* LoadingViewController.swift in Sources */,
 				2A4275FB25CB37E800620CE8 /* UIIdentifying.swift in Sources */,
 				2A4275F025CB37B600620CE8 /* ViewControllerFactory.swift in Sources */,
+				2A13000025CE88E70099221F /* UIViewController+Embedding.swift in Sources */,
 				2A4275B625CB366500620CE8 /* AppDelegate.swift in Sources */,
 				2A42763725CB502D00620CE8 /* DataManagerFactory.swift in Sources */,
 				2A42762D25CB4D6C00620CE8 /* GitCommitModel.swift in Sources */,
-				2A4275EB25CB374700620CE8 /* LandingViewController.swift in Sources */,
-				2A42760825CB38FF00620CE8 /* LandingViewModel.swift in Sources */,
+				2A4275EB25CB374700620CE8 /* CommitsViewController.swift in Sources */,
+				2A38C38F25CC01EA005ED400 /* CommitsTableViewCell.swift in Sources */,
+				2A42760825CB38FF00620CE8 /* CommitsViewModel.swift in Sources */,
 				2A42763225CB4FE200620CE8 /* CommitDataManager.swift in Sources */,
 				2A42760F25CB3BAB00620CE8 /* Configuration.swift in Sources */,
 				2A42761E25CB41F800620CE8 /* DataManager.swift in Sources */,
@@ -537,6 +733,7 @@
 		};
 		2A4275DD25CB366600620CE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0642081E827107975CC7EA1B /* Pods-SchrodersApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -555,6 +752,7 @@
 		};
 		2A4275DE25CB366600620CE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8EEDF4F524093389FA3023D /* Pods-SchrodersApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -573,6 +771,7 @@
 		};
 		2A4275E025CB366600620CE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834FFB1EDE7B9F6AB8D3F1AC /* Pods-SchrodersAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -594,6 +793,7 @@
 		};
 		2A4275E125CB366600620CE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A734EEA513D6F06C87136EA5 /* Pods-SchrodersAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -615,6 +815,7 @@
 		};
 		2A4275E325CB366600620CE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C172F53EEAE7E1A3B348B56C /* Pods-SchrodersApp-SchrodersAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -634,6 +835,7 @@
 		};
 		2A4275E425CB366600620CE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA56BCF30D621B3FC15B506 /* Pods-SchrodersApp-SchrodersAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -10,6 +10,12 @@ import UIKit
 final class EmptyStateViewController: UIViewController {
 
     private let titleLabel = UILabel()
+    
+    var error: Error? {
+        didSet {
+            titleLabel.text = error?.localizedDescription
+        }
+    }
 
     init() {
         super.init(nibName: nil, bundle: nil)
@@ -35,7 +41,7 @@ final class EmptyStateViewController: UIViewController {
     }
 
     private func setup() {
-        titleLabel.text = "No Resutls"
         titleLabel.textAlignment = .center
+        titleLabel.text = "No Resutls"
     }
 }

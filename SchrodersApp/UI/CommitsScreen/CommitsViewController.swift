@@ -47,7 +47,7 @@ class CommitsViewController: UIViewController {
 }
 
 extension CommitsViewController {
-    func updateView(forViewState viewState: CommitViewState) {
+    private func updateView(forViewState viewState: CommitViewState) {
         switch viewState {
         case .loading:
             setActiveChildViewController(viewController: loadingViewController)
@@ -55,14 +55,14 @@ extension CommitsViewController {
             reload()
         case .empty:
             setActiveChildViewController(viewController: emptyStateViewController)
-        case .error:
-            print("error")
+        case .error(let error):
+            errorViewController.error = error
             setActiveChildViewController(viewController: errorViewController)
 
         }
     }
 
-    func setActiveChildViewController(viewController: UIViewController?) {
+    private func setActiveChildViewController(viewController: UIViewController?) {
         removeEmbededChildViewControllerIfNeeded()
         guard let viewController = viewController else { return }
         embedController(viewController, layout: .custom({ (view) in
@@ -74,13 +74,13 @@ extension CommitsViewController {
         currentChildViewController = viewController
     }
 
-    func removeEmbededChildViewControllerIfNeeded() {
+    private func removeEmbededChildViewControllerIfNeeded() {
         guard let viewController = currentChildViewController else { return }
         removeEmbeddedController(viewController)
         currentChildViewController = nil
     }
 
-    func reload() {
+    private func reload() {
         DispatchQueue.main.async {
             self.removeEmbededChildViewControllerIfNeeded()
             self.commitsView.tableView.reloadData()

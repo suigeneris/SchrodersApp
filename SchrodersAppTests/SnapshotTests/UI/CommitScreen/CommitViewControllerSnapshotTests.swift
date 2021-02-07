@@ -24,7 +24,7 @@ class CommitViewControllerSnapshotTests: XCTestCase {
         dataManager = CommitDataManager(service: service)
         viewModel = CommitsViewModel(dataManager: dataManager)
         sut = CommitsViewController(viewModel: viewModel)
-        isRecording = true
+//        isRecording = true
     }
 
     func testViewControllerEmptyState() {
@@ -40,6 +40,11 @@ class CommitViewControllerSnapshotTests: XCTestCase {
     func testViewControllerResultState() {
         service.expectedResultType = .success
         self.sut.fetchButtonPressed(self)
-        assertSnapshot(matching: self.sut, as: .image)
+        let expectation = self.expectation(description: "Test")
+        DispatchQueue.main.async {
+            assertSnapshot(matching: self.sut, as: .image)
+            expectation.fulfill()
+        }
+        self.waitForExpectations(timeout: 1, handler: nil)
     }
 }

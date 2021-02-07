@@ -28,11 +28,11 @@ class MockNetworkService: NetworkService {
                                 options: .alwaysMapped)
             completion(data, nil)
         case .error:
-            print("")
+            completion(nil, NSError(domain: "Network Service", code: 0001, userInfo: ["Fail": "Could not fetch data"]))
         case .empty:
-            print("")
+            completion(Data(), nil)
         case .loading:
-            print("")
+            return
         }
     }
 }

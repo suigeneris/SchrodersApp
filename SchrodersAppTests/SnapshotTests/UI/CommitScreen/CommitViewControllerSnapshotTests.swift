@@ -47,4 +47,15 @@ class CommitViewControllerSnapshotTests: XCTestCase {
         }
         self.waitForExpectations(timeout: 1, handler: nil)
     }
+
+    func testViewControllerErrorState() {
+        service.expectedResultType = .error
+        self.sut.fetchButtonPressed(self)
+        let expectation = self.expectation(description: "Test")
+        DispatchQueue.main.async {
+            assertSnapshot(matching: self.sut, as: .image)
+            expectation.fulfill()
+        }
+        self.waitForExpectations(timeout: 1, handler: nil)
+    }
 }

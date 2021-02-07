@@ -58,7 +58,6 @@ extension CommitsViewController {
         case .error(let error):
             errorViewController.error = error
             setActiveChildViewController(viewController: errorViewController)
-
         }
     }
 

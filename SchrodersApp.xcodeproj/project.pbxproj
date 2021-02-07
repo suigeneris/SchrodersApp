@@ -31,6 +31,11 @@
 		2A42762D25CB4D6C00620CE8 /* GitCommitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42762C25CB4D6C00620CE8 /* GitCommitModel.swift */; };
 		2A42763225CB4FE200620CE8 /* CommitDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42763125CB4FE200620CE8 /* CommitDataManager.swift */; };
 		2A42763725CB502D00620CE8 /* DataManagerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42763625CB502D00620CE8 /* DataManagerFactory.swift */; };
+		2AA5E5E625CE9B3200D08D23 /* CommitViewControllerSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5E5E525CE9B3200D08D23 /* CommitViewControllerSnapshotTests.swift */; };
+		2AA5E5FB25CE9C5A00D08D23 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5E5FA25CE9C5A00D08D23 /* MockNetworkService.swift */; };
+		2AA5E60325CFD5F100D08D23 /* DecodableStubbing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5E60225CFD5F100D08D23 /* DecodableStubbing.swift */; };
+		2AA5E60825CFD65A00D08D23 /* GitCommitModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 2AA5E60725CFD65A00D08D23 /* GitCommitModel.json */; };
+		2AA5E60D25CFD73D00D08D23 /* FilePathRetrieving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5E60C25CFD73D00D08D23 /* FilePathRetrieving.swift */; };
 		B13841E24D5B72C7F82E40AD /* Pods_SchrodersAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B90C80CB6BAC6168049C77 /* Pods_SchrodersAppTests.framework */; };
 		B748425BE64BEEBA60BCAFB9 /* Pods_SchrodersApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685AB1C1048A876F1E67DD18 /* Pods_SchrodersApp.framework */; };
 /* End PBXBuildFile section */
@@ -84,6 +89,11 @@
 		2A42762C25CB4D6C00620CE8 /* GitCommitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitModel.swift; sourceTree = "<group>"; };
 		2A42763125CB4FE200620CE8 /* CommitDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitDataManager.swift; sourceTree = "<group>"; };
 		2A42763625CB502D00620CE8 /* DataManagerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerFactory.swift; sourceTree = "<group>"; };
+		2AA5E5E525CE9B3200D08D23 /* CommitViewControllerSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitViewControllerSnapshotTests.swift; sourceTree = "<group>"; };
+		2AA5E5FA25CE9C5A00D08D23 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
+		2AA5E60225CFD5F100D08D23 /* DecodableStubbing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableStubbing.swift; sourceTree = "<group>"; };
+		2AA5E60725CFD65A00D08D23 /* GitCommitModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GitCommitModel.json; sourceTree = "<group>"; };
+		2AA5E60C25CFD73D00D08D23 /* FilePathRetrieving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePathRetrieving.swift; sourceTree = "<group>"; };
 		685AB1C1048A876F1E67DD18 /* Pods_SchrodersApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchrodersApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		834FFB1EDE7B9F6AB8D3F1AC /* Pods-SchrodersAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchrodersAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SchrodersAppTests/Pods-SchrodersAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A65B424DEDBC4D4291B54954 /* Pods_SchrodersApp_SchrodersAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchrodersApp_SchrodersAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,6 +214,9 @@
 		2A4275CB25CB366600620CE8 /* SchrodersAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				2AA5E5F925CE9C3E00D08D23 /* Mocks */,
+				2AA5E5F825CE9C3500D08D23 /* StubbedData */,
+				2AA5E5E225CE9AEE00D08D23 /* SnapshotTests */,
 				2A4275CC25CB366600620CE8 /* SchrodersAppTests.swift */,
 				2A4275CE25CB366600620CE8 /* Info.plist */,
 			);
@@ -280,6 +293,48 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		2AA5E5E225CE9AEE00D08D23 /* SnapshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AA5E5E325CE9AF800D08D23 /* UI */,
+			);
+			path = SnapshotTests;
+			sourceTree = "<group>";
+		};
+		2AA5E5E325CE9AF800D08D23 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2AA5E5E425CE9B0C00D08D23 /* CommitScreen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2AA5E5E425CE9B0C00D08D23 /* CommitScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2AA5E5E525CE9B3200D08D23 /* CommitViewControllerSnapshotTests.swift */,
+			);
+			path = CommitScreen;
+			sourceTree = "<group>";
+		};
+		2AA5E5F825CE9C3500D08D23 /* StubbedData */ = {
+			isa = PBXGroup;
+			children = (
+				2AA5E60225CFD5F100D08D23 /* DecodableStubbing.swift */,
+				2AA5E60C25CFD73D00D08D23 /* FilePathRetrieving.swift */,
+				2AA5E60725CFD65A00D08D23 /* GitCommitModel.json */,
+			);
+			path = StubbedData;
+			sourceTree = "<group>";
+		};
+		2AA5E5F925CE9C3E00D08D23 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2AA5E5FA25CE9C5A00D08D23 /* MockNetworkService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		66A7CE7F3EB8E9F8EF25F4BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -333,6 +388,7 @@
 				2A4275C425CB366600620CE8 /* Sources */,
 				2A4275C525CB366600620CE8 /* Frameworks */,
 				2A4275C625CB366600620CE8 /* Resources */,
+				6AD3A1F882AA53EF752C9E3E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -422,6 +478,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA5E60825CFD65A00D08D23 /* GitCommitModel.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +553,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SchrodersApp/Pods-SchrodersApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6AD3A1F882AA53EF752C9E3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchrodersAppTests/Pods-SchrodersAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchrodersAppTests/Pods-SchrodersAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SchrodersAppTests/Pods-SchrodersAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8C67676D8C8F639367B5869D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -566,7 +640,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA5E60D25CFD73D00D08D23 /* FilePathRetrieving.swift in Sources */,
+				2AA5E5FB25CE9C5A00D08D23 /* MockNetworkService.swift in Sources */,
 				2A4275CD25CB366600620CE8 /* SchrodersAppTests.swift in Sources */,
+				2AA5E5E625CE9B3200D08D23 /* CommitViewControllerSnapshotTests.swift in Sources */,
+				2AA5E60325CFD5F100D08D23 /* DecodableStubbing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

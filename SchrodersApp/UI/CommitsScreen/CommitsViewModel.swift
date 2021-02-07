@@ -7,11 +7,27 @@
 
 import Foundation
 
-enum CommitViewState {
+enum CommitViewState: Equatable {
+
     case loading
     case result
     case error(Error)
     case empty
+
+    static func == (lhs: CommitViewState, rhs: CommitViewState) -> Bool {
+        switch (lhs, rhs) {
+        case (.loading, .loading):
+            return true
+        case (.result, .result):
+            return true
+        case (.error, .error):
+            return true
+        case (.empty, .empty):
+            return true
+        default:
+            return false
+        }
+    }
 }
 
 protocol CommitViewModelDelegate: class {

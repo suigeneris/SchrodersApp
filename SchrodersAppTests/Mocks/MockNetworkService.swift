@@ -19,7 +19,7 @@ class MockNetworkService: NetworkService {
     }
 
     var expectedResultType: ExpectedResultType = .success
-
+    var expectedError = NSError(domain: "Network Service", code: 0001, userInfo: ["Fail": "Could not fetch data"])
     func getJSONFromURL(_ url: URL, completion: @escaping (Data?, Error?) -> Void) {
 
         switch expectedResultType {
@@ -28,7 +28,7 @@ class MockNetworkService: NetworkService {
                                 options: .alwaysMapped)
             completion(data, nil)
         case .error:
-            completion(nil, NSError(domain: "Network Service", code: 0001, userInfo: ["Fail": "Could not fetch data"]))
+            completion(nil, expectedError)
         case .empty:
             completion(Data(), nil)
         case .loading:

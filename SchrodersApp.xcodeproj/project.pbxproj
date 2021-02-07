@@ -18,7 +18,6 @@
 		2A4275BF25CB366600620CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4275BE25CB366600620CE8 /* Assets.xcassets */; };
 		2A4275C225CB366600620CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4275C025CB366600620CE8 /* LaunchScreen.storyboard */; };
 		2A4275CD25CB366600620CE8 /* SchrodersAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275CC25CB366600620CE8 /* SchrodersAppTests.swift */; };
-		2A4275D825CB366600620CE8 /* SchrodersAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275D725CB366600620CE8 /* SchrodersAppUITests.swift */; };
 		2A4275EB25CB374700620CE8 /* CommitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275EA25CB374700620CE8 /* CommitsViewController.swift */; };
 		2A4275F025CB37B600620CE8 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275EF25CB37B600620CE8 /* ViewControllerFactory.swift */; };
 		2A4275F525CB37CF00620CE8 /* CommitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4275F425CB37CF00620CE8 /* CommitsView.swift */; };
@@ -36,6 +35,8 @@
 		2AA5E60325CFD5F100D08D23 /* DecodableStubbing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5E60225CFD5F100D08D23 /* DecodableStubbing.swift */; };
 		2AA5E60825CFD65A00D08D23 /* GitCommitModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 2AA5E60725CFD65A00D08D23 /* GitCommitModel.json */; };
 		2AA5E60D25CFD73D00D08D23 /* FilePathRetrieving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5E60C25CFD73D00D08D23 /* FilePathRetrieving.swift */; };
+		2AA5E61B25CFE10000D08D23 /* SchrodersAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5E61A25CFE0FF00D08D23 /* SchrodersAppUITests.swift */; };
+		2AA5E62025CFE19400D08D23 /* CommitsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5E61F25CFE19400D08D23 /* CommitsViewModelTests.swift */; };
 		B13841E24D5B72C7F82E40AD /* Pods_SchrodersAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B90C80CB6BAC6168049C77 /* Pods_SchrodersAppTests.framework */; };
 		B748425BE64BEEBA60BCAFB9 /* Pods_SchrodersApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685AB1C1048A876F1E67DD18 /* Pods_SchrodersApp.framework */; };
 /* End PBXBuildFile section */
@@ -74,7 +75,6 @@
 		2A4275CC25CB366600620CE8 /* SchrodersAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodersAppTests.swift; sourceTree = "<group>"; };
 		2A4275CE25CB366600620CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A4275D325CB366600620CE8 /* SchrodersAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchrodersAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A4275D725CB366600620CE8 /* SchrodersAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodersAppUITests.swift; sourceTree = "<group>"; };
 		2A4275D925CB366600620CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A4275EA25CB374700620CE8 /* CommitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsViewController.swift; sourceTree = "<group>"; };
 		2A4275EF25CB37B600620CE8 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
@@ -94,6 +94,8 @@
 		2AA5E60225CFD5F100D08D23 /* DecodableStubbing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableStubbing.swift; sourceTree = "<group>"; };
 		2AA5E60725CFD65A00D08D23 /* GitCommitModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GitCommitModel.json; sourceTree = "<group>"; };
 		2AA5E60C25CFD73D00D08D23 /* FilePathRetrieving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePathRetrieving.swift; sourceTree = "<group>"; };
+		2AA5E61A25CFE0FF00D08D23 /* SchrodersAppUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchrodersAppUITests.swift; sourceTree = "<group>"; };
+		2AA5E61F25CFE19400D08D23 /* CommitsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsViewModelTests.swift; sourceTree = "<group>"; };
 		685AB1C1048A876F1E67DD18 /* Pods_SchrodersApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchrodersApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		834FFB1EDE7B9F6AB8D3F1AC /* Pods-SchrodersAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchrodersAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SchrodersAppTests/Pods-SchrodersAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A65B424DEDBC4D4291B54954 /* Pods_SchrodersApp_SchrodersAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchrodersApp_SchrodersAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,6 +218,7 @@
 			children = (
 				2AA5E5F925CE9C3E00D08D23 /* Mocks */,
 				2AA5E5F825CE9C3500D08D23 /* StubbedData */,
+				2AA5E5E325CE9AF800D08D23 /* UI */,
 				2AA5E5E225CE9AEE00D08D23 /* SnapshotTests */,
 				2A4275CC25CB366600620CE8 /* SchrodersAppTests.swift */,
 				2A4275CE25CB366600620CE8 /* Info.plist */,
@@ -226,7 +229,7 @@
 		2A4275D625CB366600620CE8 /* SchrodersAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2A4275D725CB366600620CE8 /* SchrodersAppUITests.swift */,
+				2AA5E61A25CFE0FF00D08D23 /* SchrodersAppUITests.swift */,
 				2A4275D925CB366600620CE8 /* Info.plist */,
 			);
 			path = SchrodersAppUITests;
@@ -296,7 +299,6 @@
 		2AA5E5E225CE9AEE00D08D23 /* SnapshotTests */ = {
 			isa = PBXGroup;
 			children = (
-				2AA5E5E325CE9AF800D08D23 /* UI */,
 			);
 			path = SnapshotTests;
 			sourceTree = "<group>";
@@ -313,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				2AA5E5E525CE9B3200D08D23 /* CommitViewControllerSnapshotTests.swift */,
+				2AA5E61F25CFE19400D08D23 /* CommitsViewModelTests.swift */,
 			);
 			path = CommitScreen;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 					};
 					2A4275D225CB366600620CE8 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 						TestTargetID = 2A4275B125CB366500620CE8;
 					};
 				};
@@ -643,6 +647,7 @@
 				2AA5E60D25CFD73D00D08D23 /* FilePathRetrieving.swift in Sources */,
 				2AA5E5FB25CE9C5A00D08D23 /* MockNetworkService.swift in Sources */,
 				2A4275CD25CB366600620CE8 /* SchrodersAppTests.swift in Sources */,
+				2AA5E62025CFE19400D08D23 /* CommitsViewModelTests.swift in Sources */,
 				2AA5E5E625CE9B3200D08D23 /* CommitViewControllerSnapshotTests.swift in Sources */,
 				2AA5E60325CFD5F100D08D23 /* DecodableStubbing.swift in Sources */,
 			);
@@ -652,7 +657,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4275D825CB366600620CE8 /* SchrodersAppUITests.swift in Sources */,
+				2AA5E61B25CFE10000D08D23 /* SchrodersAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -896,6 +901,7 @@
 			baseConfigurationReference = C172F53EEAE7E1A3B348B56C /* Pods-SchrodersApp-SchrodersAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SchrodersAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -905,6 +911,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.tudilah.SchrodersAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SchrodersApp;
@@ -916,6 +923,7 @@
 			baseConfigurationReference = FBA56BCF30D621B3FC15B506 /* Pods-SchrodersApp-SchrodersAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SchrodersAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
